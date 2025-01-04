@@ -1,3 +1,6 @@
-echo "Versione iniziale" > file.txt
+git checkout -b branch1
+echo "Modifica nel branch1" >> file.txt
 git add file.txt
-git commit -m "Primo commit: versione iniziale"
+git commit -m "Modifica nel branch1"
+
+
